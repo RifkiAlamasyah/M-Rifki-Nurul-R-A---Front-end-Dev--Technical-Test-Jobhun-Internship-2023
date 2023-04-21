@@ -1,0 +1,19 @@
+@import './base.css';
+.fade-in-down {
+  opacity: 0;
+  transform: translateY(-50px);
+  animation: fade-in-down 2s ease forwards;
+}
+
+@keyframes fade-in-down {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.tigaDtext{
+    text-shadow: 1px 1px 0 #0f0, 2px 2px 0 #0e0, 3px 3px 0 #0d0, 4px 4px 0 #0c0, 5px 5px 0 #0b0, 6px 6px 0 #0a0, 7px 7px 0 #090, 8px 8px 0 #080, 9px 9px 0 #070, 10px 10px 0 #060, 11px 11px 0 #050, 12px 12px 0 #040, 13px 13px 0 #030, 14px 14px 0 #020, 15px 15px 0 #010;
+  
+}
+
